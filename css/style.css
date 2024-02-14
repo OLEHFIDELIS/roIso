@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    border: 2px solid black;
+    height: 6rem;
+    justify-content: space-around;
+}
+.header .logo{
+/* border: 2px solid black; */
+width: 11rem;
+height: 4rem;
+margin-left: 8rem;
+margin-top: 1rem;
+padding-top: 0.5rem;
+}
+.header ul{
+    /* border: 2px solid red; */
+    width: 45rem;
+    margin-top: 1rem;
+    /* justify-content: space-between; */
+}
+
+.header ul li{
+  /* border: 2px solid black;   */
+  margin: rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding-top: 15px;
+}
+.header .fone{
+    /* border: 2px solid black; */
+    width: 5rem;
+    height: 4rem; 
+    margin-right: 5rem; 
+    margin-top: 1rem;
+    padding-top: 2px;
+}
