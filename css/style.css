@@ -2,12 +2,16 @@
     box-sizing: border-box;
 }
 
-.header{
+.header1{
+    width: 100%;
+    background-color: #fff;
     border: 2px solid black;
     height: 6rem;
     justify-content: space-around;
+    position: fixed;
+    z-index: 1000;
 }
-.header .logo{
+.header1 .logo{
 /* border: 2px solid black; */
 width: 11rem;
 height: 4rem;
@@ -15,23 +19,26 @@ margin-left: 8rem;
 margin-top: 1rem;
 padding-top: 0.5rem;
 }
-.header ul{
+.header1 .logo img{
+    width: fit-content;
+}
+.header1 ul{
     /* border: 2px solid red; */
     width: 45rem;
     margin-top: 1rem;
     /* justify-content: space-between; */
 }
 
-.header ul li{
+.header1 ul li{
   /* border: 2px solid black;   */
   margin: rem;
   font-size: 1.4rem;
   font-weight: 500;
   padding-top: 15px;
 }
-.header .fone{
+.header1 .foneim{
     /* border: 2px solid black; */
-    width: 5rem;
+    /* width: 5; */
     height: 4rem; 
     margin-right: 5rem; 
     margin-top: 1rem;
